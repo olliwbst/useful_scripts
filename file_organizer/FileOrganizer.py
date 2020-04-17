@@ -22,6 +22,7 @@ if not os.path.exists(os.path.join(DIR, CONFIG_NAME)):
     with open(CONFIG_NAME, 'w') as outputfile:
         json.dump(config, outputfile, indent=2)
     print(f'config file generated as {CONFIG_NAME}. run this again after setting your preferences there.')
+    input()
     sys.exit()
 else:
     print('config-file found. reading config...')
