@@ -50,8 +50,13 @@ else:
                     if filename == CONFIG_NAME or filename == SCRIPT_NAME:
                         continue
                     elif filename.endswith(item):
-                        shutil.move(os.path.join(DIR, filename), os.path.join(DIR, directory))
-                        print(f'moved "{filename}" into "{directory}".')
+                        try:
+                            shutil.move(os.path.join(DIR, filename), os.path.join(DIR, directory))
+                            print(f'moved "{filename}" into "{directory}".')
+                        except:
+                            print(f'"{filename}" already exists in "{directory}", skipping. (rename or replace it '
+                                  f'manually.)')
+                            continue
 
 print('finished organizing, you can close this window now. (or press ENTER)')
 input()
