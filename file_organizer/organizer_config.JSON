@@ -1,0 +1,45 @@
+{
+  "documents": [
+    ".pdf",
+    ".doc",
+    ".txt",
+    ".xlsx",
+    ".docx",
+    ".pptx",
+    ".json"
+  ],
+  "pictures": [
+    ".png",
+    ".jpg",
+    ".svg",
+    ".gif",
+    ".hdr"
+  ],
+  "videos": [
+    ".mp4",
+    ".mov"
+  ],
+  "archives": [
+    ".zip",
+    ".7z",
+    ".iso",
+    ".rar"
+  ],
+  "soundfiles": [
+    ".mp3"
+  ],
+  "fonts": [
+    ".ttf"
+  ],
+  "exe": [
+    ".exe",
+    ".msi"
+  ],
+  "scripts+notebooks": [
+    ".py",
+    ".ipynb"
+  ],
+  "delete": [
+  ".bib"
+  ]
+}
