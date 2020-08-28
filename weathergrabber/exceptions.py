@@ -1,0 +1,2 @@
+class OWMApiResponseError(RuntimeError):
+    pass
